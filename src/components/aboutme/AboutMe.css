@@ -53,7 +53,7 @@
   .a {
     flex-direction: column;
     text-align: center;
-    margin-top: -80%;
+
     margin-bottom: -30%;
   }
 
@@ -63,10 +63,6 @@
 
   .a-card {
     height: 30vh;
-  }
-
-  .a-img {
-    display: none;
   }
 
   .a-card.bg,

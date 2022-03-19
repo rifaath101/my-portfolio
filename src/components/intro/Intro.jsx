@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import './Intro.css'
-import Me from '../../no-background/nobackground-full.png'
 import { ThemeContext } from '../../context'
 
 const Intro = () => {
@@ -79,7 +78,6 @@ const Intro = () => {
       </div>
       <div className='i-right'>
         <div className='i-bg'></div>
-        <img src={Me} alt='' className='i-img' />
       </div>
     </div>
   )
