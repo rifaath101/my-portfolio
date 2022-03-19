@@ -1,0 +1,101 @@
+.i {
+  display: flex;
+  height: 100vh; /* Gives the full view */
+}
+
+.i-left {
+  flex: 1; /* If the no. is the same = same amount of space, otherwise the higher number  gets more space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+}
+
+.i-left-wrapper {
+  padding: 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.i-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.i-name {
+  font-size: 60px;
+}
+
+.i-title {
+  height: 50px;
+}
+
+.i-title-wrapper {
+  height: 100%;
+}
+
+.i-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  align-items: center;
+}
+
+.i-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.i-img {
+  position: absolute;
+  width: 74%;
+}
+
+.i-bg {
+  clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  /* you can get shapes from https://bennettfeely.com/clippy/ */
+  background-color: #59b256;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-img {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .i-title-item {
+    margin-top: 9%;
+  }
+
+  .i-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .i-desc {
+    display: none;
+  }
+}
