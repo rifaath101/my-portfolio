@@ -5,8 +5,8 @@ export const projects = [
     link: 'https://travel-advisor-rifaath.netlify.app/',
   },
   {
-    id: 1,
+    id: 2,
     img: 'https://user-images.githubusercontent.com/72337379/154072467-f12fe491-af16-40e7-bfb5-d1ee2edc85bb.png',
-    link: 'https://e-commerce-product-page-rifaath.netlify.app/',
+    link: 'https://product-page-rifaath.netlify.app/',
   },
 ]
